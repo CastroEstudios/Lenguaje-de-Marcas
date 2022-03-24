@@ -1,0 +1,43 @@
+h1 {
+    background-color: bisque;
+    border: 1px solid black;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    width: 70%;
+    margin: auto;
+}
+
+img {
+    display: inline-block;
+    grid-area: 1/1/4/2;
+    width: 100%;
+    justify-self: center;
+}
+
+.text {
+    display: flex;
+    vertical-align: middle;
+    color: red;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+}
+
+.overlay {
+    background-color: burlywood;
+    opacity: 0;
+    grid-area: 1/1/4/2;
+    width: 100%;
+    justify-self: center;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+  }

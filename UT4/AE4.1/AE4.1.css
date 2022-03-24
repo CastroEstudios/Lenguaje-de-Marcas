@@ -1,0 +1,195 @@
+
+html, body {
+    width: auto;
+    height: 100%;
+    margin: 0;
+    background-color: rgb(15, 15, 15);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 3rem;
+    background-color: rgb(15, 15, 15);
+    color: white;
+}
+
+.main-content {
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+    margin: 2% 25%;
+}
+
+.background {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.faro, .barco, .luz, .lancha, .pajaro, .nube, .nube2 {
+    position: absolute;
+}
+
+.faro {
+    top: 18%;
+    right: 0%;
+    width: 25%;
+}
+
+.pajaro {
+    top: 10%;
+    right: -10%;
+    width: 5%;
+    animation: pajaro-mov 90s linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pajaro-mov {
+    30% {
+        top: 10%;
+        right: 115%;
+    }
+    31% {
+        top: -50%;
+        right: 115%;
+    }
+    32% {
+        top: -50%;
+        width: 5%;
+        right: -10%;
+    }
+    33%{
+        right: -10%;
+        top: 58%;
+        width: 7%;
+    }
+    60% {
+        width: 7%;
+        top: 58%;
+        right: 115%;
+        transform: scaleX(1);
+    }
+    62% {
+        width: 5%;
+        top: 20%;
+        right: 115%;
+        transform: scaleX(-1);
+    }
+    96% {
+        width: 5%;
+        top: 20%;
+        right: -50%;
+        transform: scaleX(-1);
+    }
+}
+
+.barco {
+    top: 55%;
+    right: 105%;
+    width: 18%;
+    animation: barco-mov 30s linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes barco-mov {
+    8.4%, 25.2%, 42%, 58.8%, 75.6%, 100% {
+        top: 56%;
+    }
+    16.8%, 33.6%, 50.4%, 67.2%, 92.4% {
+        top: 55%;
+    }
+    100% {
+        right: -20%;
+    }
+}
+
+.luz {
+    position: absolute;
+    top: 31%;
+    right: 11.5%;
+    width: 25%;
+    height: 15%;
+    animation: luz-mov 10s ease-in-out, luz-opacidad 10s ease;
+    animation-iteration-count: infinite;
+}
+
+@keyframes luz-mov {
+    50%{
+        transform: scaleX(-1);
+        right: -14%;
+    }
+    100%{
+        transform: scaleX(1);
+    }
+}
+
+.lancha {
+    top: 76%;
+    right: 10%;
+    width: 15%;
+    opacity: 1;
+    animation: lancha-mov ease-in-out 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes lancha-mov {
+    50% {
+        top: 77%;
+        right: 10%;
+    }
+    100% { 
+        top: 76%;
+        right: 10%;
+    }
+}
+
+.nube {
+    top: 10%;
+    right: 60%;
+    width: 25%;
+    height: 15%;
+    animation: nube-mov 15s linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes nube-mov {
+    50%{
+        right: 50%;
+        opacity: 0;
+    }
+    85%{
+        right: 60%;
+        opacity: 1;
+    }
+}
+
+.nube2 {
+    top: 15%;
+    right: 80%;
+    width: 25%;
+    height: 15%;
+    animation: nube2-mov 15s linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes nube2-mov {
+    50%{
+        right: 90%;
+        opacity: 0;
+    }
+    90%{
+        right: 80%;
+        opacity: 1;
+    }
+}
+
+.main-content:hover {
+    filter: saturate(0);
+}

@@ -1,0 +1,99 @@
+
+#cabecera{
+    padding: 1em;
+    margin: 1em;
+}
+
+#menu{
+    padding: .5em;
+    margin: 1em;
+    padding-left: 1em;
+}
+
+#lateral, #principal, #secundario{
+    padding: .5em;
+    display: inline-block;
+}
+
+#pie {
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+#articulo *{
+    margin: 1em;
+}
+
+#articulo img{
+    margin: .5em;
+}
+
+#publicidad{
+    margin-top: 1em;
+}
+
+#pie{
+    margin-top: 1em;
+}
+
+#logo{
+    display: inline-block;
+    width: 80%;
+}
+
+#buscador{
+    display: inline-block;
+    width: 15%;
+    margin-left: .5em;
+    vertical-align: top;
+}
+
+#menu ul{
+    padding: 0em;
+}
+
+#menu li{
+    margin: -.15em;
+    text-align: left;
+    display: inline-block;
+}
+
+#lateral{
+    width: 10%;
+    margin-left: 1em;
+}
+
+#principal{
+    width: 70%;
+    vertical-align: top;
+    min-height: 100%;
+}
+
+#secundario{
+    width: 10%;
+    vertical-align: top;
+}
+
+#contenido{
+    display:contents;
+}
+
+img{
+    float: left;
+}
+
+#contenedor{
+    margin: 0em 15em;
+}
+
+.copyright{
+    margin-left: 40rem;
+}
+
+#pie{
+    margin-left: 1em;
+}
+
+#cabecera, #menu, #lateral, #principal, #secundario, #contenido, #pie{
+    border: 2px solid black;
+}

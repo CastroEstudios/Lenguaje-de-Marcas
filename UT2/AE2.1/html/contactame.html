@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--Daniel Castro Cruz 1ºDAMBA!-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css"/>
+    <link rel="icon" href="../imagenes/favicon-96x96.png" type="image/icon"/>
+    <title>AE2.1DanielCastro</title>
+</head>
+<body>
+
+    <div id="header">
+    <ul>
+        <li><a href="../index.html">Tim Berners-Lee</a></li>
+        <li><a href="portofolio.html">Portofolio</a></li>
+        <li><a href="precios.html">Tabla de precios</a></li>
+        <li><a href="contactame.html">Contáctame</a></li>
+    </ul>
+
+    <img src="../imagenes/imagen-menu.png" usemap="#indiceformas"/>
+    <map name="indiceformas">
+        <area shape="square" coords="15,44,107,132" href="../index.html"/>
+        <area shape="circle" coords="172,90,45" href="portofolio.html"/>
+        <area shape="poly" coords="231,135,288,42,345,135" href="precios.html"/>
+        <area shape="poly" coords="352,33,352,140,440,140,440,32" href="contactame.html"/>
+    </map>
+    </div>
+
+    <div id="main-content">
+        <h1>Contáctame</h1>
+        <h2>Formulario de Contacto</h2>
+        <form action="contactame.php" method="post">
+            Nombre <input type="text" name="Nombre" value=""/><br/>
+            Apellidos <input type="text" name="Apellidos" value=""/><br/>
+            Email <input type="text" name="Email" value=""/><br/>
+            Fecha de nacimiento <input type="date" name="Fecha" value=""/><br/>
+            Edad <input type="number" name="Edad" value=""/><br/>
+            Sexo:<br/>
+            Hombre <input type="radio" name="sexo" value="Hombre"/><br/>
+            Mujer <input type="radio" name="sexo" value="Mujer"/><br/>
+            <label for="pais">País:</label>
+            <select id="pais" name="pais">
+                <option value="España">España</option>
+                <option value="México">México</option>
+                <option value="Fiji">Fiji</option>
+                <option value="Cambodia">Cambodia</option>
+                <option value="Mauritania">Mauritania</option>
+            </select>
+            </br><br/>
+            <p>Otros Datos</p>
+            Mensaje<textarea></textarea><br/>
+            Adjunta una foto...<input type="submit" name="Archivos Adjuntos" value="Seleccione un archivo">
+            <br/>
+            <input type="checkbox"/> He leído las condiciones
+            <br/>
+            <button type="reset" value="Clear">Limpiar</button>
+            <button type="submit" value="Enviar">Enviar</button>
+        </form>
+    </div>
+    
+    <div id="footer">
+        <p>&#169 2040 <a href=#header>www.MiSitio.com</a></p>
+    </div>
+
+</body>
+</html>

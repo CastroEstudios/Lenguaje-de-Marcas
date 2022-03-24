@@ -1,0 +1,30 @@
+* {
+    font-size: 12.5pt;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-weight: 400;
+}
+
+#primero {
+    color: cadetblue;
+}
+
+p a {
+    color: chocolate;
+}
+
+#primero em {
+    background-color: yellow;
+}
+
+span > a {
+    text-decoration: none;
+    font-weight: normal;
+}
+p span {
+    font-weight: bold;
+}
+
+.especial {
+    background-color: rgba(255, 136, 0, 0.322);
+}

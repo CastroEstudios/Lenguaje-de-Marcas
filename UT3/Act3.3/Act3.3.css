@@ -1,0 +1,42 @@
+
+#titulo{
+    color: cadetblue;
+}
+
+p strong, th{
+    color: red;
+}
+
+p a{
+    color: red;text-decoration: underline red;
+}
+
+p a em, #subtitulo, caption{
+    color: blue;
+}
+
+span.especial{
+    color: rgb(241, 3, 241);
+}
+
+td, #adicional a{
+    color: rgb(0, 160, 21);
+    text-decoration: rgb(0, 160, 21) underline;
+}
+
+.especial, td strong, .destacado{
+    color: orange;
+}
+
+table, td, th{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+#adicional p{
+    color: rgb(121, 194, 26);
+}
+
+#adicional span#especial{
+    color: palevioletred;
+}
