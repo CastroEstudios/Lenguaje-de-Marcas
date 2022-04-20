@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<equipos>
+    <equipo>
+        <nombre>F.C.Barcelona</nombre>
+        <ciudad>Barcelona</ciudad>
+        <entrenador></entrenador>
+        <jugadores>
+            <jugador posicion="portero">
+                <nombre>Ter Stegen</nombre>
+                <nacionalidad>Alemana</nacionalidad>
+            </jugador>
+            <jugador posicion="delantero">
+                <nombre>Aubameyang</nombre>
+                <nacionalidad>Francesa</nacionalidad>
+                <nacionalidad>Española</nacionalidad>
+                <nacionalidad>Gabonesa</nacionalidad>
+            </jugador>
+        </jugadores>
+    </equipo>
+</equipos>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personas [
+    <!ELEMENT personas (persona+)>
+    <!ELEMENT persona (dni, nombre, apellidos, domicilio)>
+    <!ELEMENT dni (#PCDATA)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellidos (#PCDATA)>
+    <!ELEMENT domicilio (localidad, calle, numero, tipo)>
+    <!ELEMENT localidad (#PCDATA)>
+    <!ELEMENT calle (#PCDATA)>
+    <!ELEMENT numero (#PCDATA)>
+    <!ELEMENT tipo (#PCDATA)>
+]>
+<personas>
+    <persona>
+        <dni>25866513G</dni>
+        <nombre>Marta</nombre>
+        <apellidos>Castoña Arieta</apellidos>
+        <domicilio>
+            <localidad>Icod</localidad>
+            <calle>Santa María</calle>
+            <numero>2</numero>
+            <tipo>Vivienda</tipo>
+        </domicilio>
+    </persona>
+    <persona>
+        <dni>45223565F</dni>
+        <nombre>Antonio</nombre>
+        <apellidos>García Villarán</apellidos>
+        <domicilio>
+            <localidad>Adeje</localidad>
+            <calle>La Gomera</calle>
+            <numero>25</numero>
+            <tipo>Edificio</tipo>
+        </domicilio>
+    </persona>
+</personas>

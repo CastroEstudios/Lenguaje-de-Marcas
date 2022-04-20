@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marcadores>
+    <marcador>
+        <nombre>Wikipedia</nombre>
+        <descripcion>
+            La enciclopedia libre
+        </descripcion>
+        <enlace>
+            https://www.wikipedia.org
+        </enlace>
+    </marcador>
+    <marcador>
+        <nombre>W3C</nombre>
+        <descripcion>
+            World Wide Web Consortium
+        </descripcion>
+        <enlace>
+            http://www.w3.org
+        </enlace>
+    </marcador>
+    <marcador>
+        <nombre>w3school</nombre>
+        <descripcion>
+            Tutoriales Web Online
+        </descripcion>
+        <enlace>
+            https://www.w3schools.com
+        </enlace>
+    </marcador>
+</marcadores>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<informacion>
+    <vehiculo>
+        <marca>
+            <modelo></modelo>
+        </marca>
+        <matricula></matricula>
+        <kilometros></kilometros>
+        <precio-original></precio-original>
+        <precio-oferta></precio-oferta>
+        <extras>
+            <fotos></fotos>
+        </extras>
+    </vehiculo>
+</informacion>

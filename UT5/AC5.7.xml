@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carta>
+    <plato>
+        <nombre>Bocadillo de pollo</nombre>
+        <precio moneda="euros">2,38</precio>
+        <descripcion>
+            Pollo, lechuga, tomate y alioli
+        </descripcion>
+        <calorias>230</calorias>
+    </plato>
+    <plato>
+        <nombre>Sandwich mixto</nombre>
+        <precio moneda="euros">1,6</precio>
+        <descripcion>
+            Jamón york y queso
+        </descripcion>
+        <calorias>180</calorias>
+    </plato>
+    <plato>
+        <nombre>Escaldón</nombre>
+        <precio moneda="euros">3,5</precio>
+        <descripcion>
+            Gofio y restos de puchero
+        </descripcion>
+        <calorias>500</calorias>
+    </plato>
+    <plato>
+        <nombre>Huevos rotos</nombre>
+        <precio moneda="euros">3,5</precio>
+        <descripcion>
+            Papas fritas y huevos fritos
+        </descripcion>
+        <calorias>405</calorias>
+    </plato>
+</carta>

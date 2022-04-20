@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mensaje>
+    <remite>
+        <nombre>Carlos Peña</nombre>
+        <email>carlospe@genial.com</email>
+    </remite>
+    <destinatario>
+        <nombre>Pepe Gotera</nombre>
+        <email>pepe.got@hotdog.com</email>
+    </destinatario>
+    <asunto>Yipssss pepe</asunto>
+    <texto>
+        <parrafo>
+            A ver cuando quedamos para fumar porros.
+        </parrafo>
+        <parrafo>
+            También tenemos que mirar a las niñas.
+        </parrafo>
+    </texto>
+</mensaje>
