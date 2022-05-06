@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alumnos 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="./AC5.18.xsd">
+    <alumno>
+        <nombre>Daniel</nombre>
+        <edad>21</edad>
+        <active>true</active>
+    </alumno>
+    <alumno>
+        <nombre>Antonio</nombre>
+        <edad>19</edad>
+        <active>false</active>
+    </alumno>
+</alumnos>

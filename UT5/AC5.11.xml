@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pedido 
+[
+<!ELEMENT pedido (pizza, seccion)>
+<!ELEMENT pizza (ingrediente*, inventor?)>
+<!ELEMENT ingrediente EMPTY>
+<!ELEMENT inventor (#PCDATA)>
+<!ELEMENT seccion (titulo, (contenido | seccion+))>
+]>
+<pedido>
+    <pizza>
+        <ingrediente></ingrediente>
+        <inventor></inventor>
+    </pizza>
+    <seccion>
+        <titulo></titulo>
+        <seccion>
+            <contenido></contenido>
+        </seccion>
+    </seccion>
+</pedido>
