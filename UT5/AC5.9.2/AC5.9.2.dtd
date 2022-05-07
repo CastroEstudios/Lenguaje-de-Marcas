@@ -1,0 +1,10 @@
+<!ELEMENT personas (persona+)>
+<!ELEMENT persona (dni, nombre, apellidos, domicilio)>
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT domicilio (localidad, calle, numero, tipo)>
+<!ELEMENT localidad (#PCDATA)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
