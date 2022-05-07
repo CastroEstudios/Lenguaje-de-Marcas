@@ -1,0 +1,31 @@
+<!ELEMENT alumnos (alumno+)>
+<!ELEMENT alumno 
+    (nombre, apellidos, direccion, telefonos, procedencia,
+    nota-alumno*, informacion-adicional, comentarios)>
+    <!ATTLIST alumno ID ID #REQUIRED>
+    <!ATTLIST alumno sexo (masculino|femenino) #IMPLIED>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellidos (#PCDATA)>
+    <!ELEMENT direccion (via, numero, ciudad)>
+        <!ELEMENT via (#PCDATA)>
+        <!ELEMENT numero (#PCDATA)>
+        <!ELEMENT ciudad (#PCDATA)>
+    <!ELEMENT telefonos (telefono+)>
+        <!ELEMENT telefono (#PCDATA)>
+            <!ATTLIST telefono titular CDATA #REQUIRED>
+    <!ELEMENT procedencia (provincia|pais-origen)>
+        <!ELEMENT provincia (#PCDATA)>
+        <!ELEMENT pais-origen (#PCDATA)>
+    <!ELEMENT nota-alumno (#PCDATA|evaluacion)*>
+        <!ELEMENT evaluacion (nota)>
+        <!ATTLIST evaluacion numero-evaluacion (primera | segunda | final) #REQUIRED>
+            <!ELEMENT nota (#PCDATA)>
+    <!ELEMENT informacion-adicional (equipo-deportivo?, altura?, aficiones*, ayudado-por*)>
+        <!ELEMENT equipo-deportivo (#PCDATA)>
+        <!ELEMENT altura (#PCDATA)>
+        <!ELEMENT aficiones (#PCDATA)>
+        <!ENTITY % alumno-ayudante "alumno">
+    <!ELEMENT comentarios (comentario)>
+        <!ELEMENT comentario (#PCDATA)>
+
+<!--1DAMB - Daniel Castro Cruz-->

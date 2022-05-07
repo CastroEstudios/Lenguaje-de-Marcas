@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE alumnos SYSTEM "AE5.1-Alumnos-1DAMB-DanielCastroCruz.dtd">
+<alumnos>
+
+    <alumno ID="A0001">
+        <nombre>
+            Daniel
+        </nombre>
+        <apellidos>
+            Castro Cruz
+        </apellidos>
+        <direccion>
+            <via>
+                Calle
+            </via>
+            <numero>
+                12
+            </numero>
+            <ciudad>
+                S/C de Tenerife
+            </ciudad>
+        </direccion>
+        <telefonos>
+            <telefono titular="Madre">
+                922456655
+            </telefono>
+            <telefono titular="Padre">
+                689556622
+            </telefono>
+        </telefonos>
+        <procedencia>
+            <provincia>
+                S/C de Tenerife
+            </provincia>
+        </procedencia>
+        <nota-alumno>
+            <evaluacion numero-evaluacion="primera">
+                <nota>
+                    10
+                </nota>
+            </evaluacion>
+        </nota-alumno>
+        <informacion-adicional>
+            <equipo-deportivo>F.C. César Manrique</equipo-deportivo>
+            <altura>186</altura>
+            <aficiones>Arte 3D</aficiones>
+        </informacion-adicional>
+        <comentarios>
+            <comentario></comentario>
+        </comentarios>
+    </alumno>
+
+    <alumno ID="A0002">
+        <nombre>
+            Pablo
+        </nombre>
+        <apellidos>
+            Castro Cruz
+        </apellidos>
+        <direccion>
+            <via>
+                Calle
+            </via>
+            <numero>
+                4
+            </numero>
+            <ciudad>
+                La Laguna
+            </ciudad>
+        </direccion>
+        <telefonos>
+            <telefono titular="Madre">
+                922456655
+            </telefono>
+            <telefono titular="Padre">
+                689556622
+            </telefono>
+        </telefonos>
+        <procedencia>
+            <provincia>
+                S/C de Tenerife
+            </provincia>
+        </procedencia>
+        <nota-alumno>
+            <evaluacion numero-evaluacion="primera">
+                <nota>
+                    10
+                </nota>
+            </evaluacion>
+        </nota-alumno>
+        <informacion-adicional>
+        </informacion-adicional>
+        <comentarios>
+            <comentario></comentario>
+        </comentarios>
+    </alumno>
+
+</alumnos>
+
+<!--1DAMB - Daniel Castro Cruz-->
