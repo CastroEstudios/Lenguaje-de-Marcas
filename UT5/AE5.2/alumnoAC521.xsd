@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="alumno">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="nombre">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:maxLength value="20"></xs:maxLength>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="sexo" type="TipoSexo"/>
+            <xs:element name="dni" type="xs:string"/>
+            <xs:element name="direccion" type="xs:string"/>
+            <xs:element name="edad" type="TipoEdad"/>
+            <xs:element name="telefono" type="TipoTelefono"/>
+        </xs:sequence>
+    </xs:complexType>
+    </xs:element>
+
+    <xs:simpleType name="TipoEdad">
+        <xs:restriction base="xs:int">
+            <xs:minInclusive value="16"></xs:minInclusive>
+            <xs:maxInclusive value="25"></xs:maxInclusive>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="TipoSexo">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="M"></xs:enumeration>
+            <xs:enumeration value="F"></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="TipoTelefono">
+        <xs:restriction base="xs:int">
+            <xs:pattern value="[9|6]\d{8}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>
