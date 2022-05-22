@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<alumnos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="alumnoAC521.xsd">
+
+    <alumno>
+        <nombre>juanita</nombre>
+        <sexo>F</sexo>
+        <dni>88748745</dni>
+        <direccion>San Agustín 44</direccion>
+        <edad>25</edad>
+        <telefono>
+            <fijo>
+                922536599
+            </fijo>
+            <fijo>
+                933225555
+            </fijo>
+            <movil>
+                688956653
+            </movil>
+            <movil>
+                633954565
+            </movil>
+            <movil>
+                645859663
+            </movil>
+        </telefono>
+    </alumno>
+
+    <alumno>
+        <nombre>juan</nombre>
+        <sexo>M</sexo>
+        <dni>28542345</dni>
+        <direccion>San Jose 2</direccion>
+        <edad>20</edad>
+        <telefono>
+            <fijo>
+                922536599
+            </fijo>
+            <fijo>
+                933225555
+            </fijo>
+            <movil>
+                655989898
+            </movil>
+        </telefono>
+    </alumno>
+
+</alumnos>
+
+<!-- 1DAMB - Daniel Castro Cruz -->
